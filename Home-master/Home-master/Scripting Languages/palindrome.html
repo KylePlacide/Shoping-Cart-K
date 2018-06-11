@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>palindrome</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+
+var string = prompt('Enter a strong for palindrome check: ');
+
+function palindromeCheck(string){
+
+
+var lowerCaseString = string.toLowerCase();
+var noSpaces = lowerCaseString.replace(' ','');
+var array = noSpaces.split(''); //empty string
+var reversedArray = array.reverse();
+var reverseString = reversedArray.join('');
+
+if (noSpaces === reverseString) {
+  
+  return true;
+}
+else {
+  
+  return false;
+	}
+}
+
+if (palindromeCheck(string) ===  true) {
+	console.log(string +" is a palindrome!");
+}
+else {
+	console.log(string +" is not a palindrome");
+}
+</script>
+
+</body>
+</html>
+

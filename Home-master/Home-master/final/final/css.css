@@ -1,0 +1,41 @@
+body{
+	background-color: #fdf8e8;
+	background: black url("season.png") no-repeat center fixed;
+	background-size: cover;
+	
+}
+.intro { text-align: center;
+}
+.head { 
+	text-align: center;
+}
+
+}
+.Summer {
+	color:   #b30000;
+	text-indent: 11%;
+	font-size: 120%;
+	
+}
+
+.Fall {
+	color:  #ff944d;
+	text-indent: 30%;
+	font-size: 120%;
+	
+}
+
+.Winter {
+	color:  #3399ff;
+	text-indent: 55%;
+	font-size: 120%;
+
+}
+
+.Spring {
+	color:  #993366;
+	text-indent: 80%
+
+}
+
+
